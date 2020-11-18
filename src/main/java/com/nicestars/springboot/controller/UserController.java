@@ -40,6 +40,7 @@ public class UserController {
         user.setName(name);
         user.setAge(age);
         user.setAddress(address);
+        //这里返回数据可以用两个方式来实现
         BaseReponse reponse = new BaseReponse();
 //        if (userServiceimpl.insert(user)>1){
 //            reponse.setCode(200);
